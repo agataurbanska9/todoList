@@ -1,0 +1,36 @@
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+package-lock.json
+node_modules/
+.sass-cache/
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Linux ###
+*~
+
+### Code ###
+# Visual Studio Code - https://code.visualstudio.com/
+.settings/
+.vscode/
+
+### Webstorm ###
+.idea/
+
+### Other ###
+.test/
+.solution
+
+webpack.config.js
+package.json
+.babelrc
+
+!2_Snippety/1_Konfiguracja_srodowiska/.babelrc
+!2_Snippety/1_Konfiguracja_srodowiska/.package.json
+!2_Snippety/1_Konfiguracja_srodowiska/.webpack.config.js

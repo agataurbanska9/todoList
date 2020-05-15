@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: ghostwhite;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+.container {
+    margin: auto;
+    width: 400px;
+    justify-content: center;
+}
+.form {
+    height: 200px;
+}
+.remove-btn {
+    background: ghostwhite;
+    color: #4d4dff;
+    font-size: 1rem;
+    padding: 5px;
+    border: ghostwhite;
+}
+.trash-icon:hover {
+    color: red;
+
+}
+
+.submit-btn {
+    background: #4d4dff;
+    color: ghostwhite;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 3px;
+    border: #4d4dff;
+    width: 177px;
+    margin: 5px;
+}
+.submit-btn:hover {
+    background: #6262dc;
+}
+input {
+    margin: 2px;
+    border: none;
+    border-bottom: 1px solid #4d4dff;
+    background: ghostwhite;
+}
+.tasks-list {
+    font-size: 1rem;
+}
+.page-title {
+    margin: 3rem;
+}
