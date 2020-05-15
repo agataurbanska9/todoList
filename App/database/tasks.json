@@ -10,22 +10,13 @@
       "id": 1
     },
     {
-      "title": "RWD site",
-      "description": "make a skeleton of website",
+      "title": "",
+      "description": "",
       "date": {
-        "start": "14:00",
-        "end": "15:00"
+        "start": "",
+        "end": ""
       },
       "id": 2
-    },
-    {
-      "title": "Groceries",
-      "description": "Make groceries for next week",
-      "date": {
-        "start": "17:00",
-        "end": "18:30"
-      },
-      "id": 3
     }
   ]
 }

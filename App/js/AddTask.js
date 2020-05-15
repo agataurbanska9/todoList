@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 
 export const AddTask = ({onAddTask}) => {
+    const [errorMsg, setErrorMsg] = useState("");
+
 
     const API_URL = 'http://localhost:3000';
     const [task, setTask] = useState({
@@ -20,6 +22,8 @@ export const AddTask = ({onAddTask}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        // setErrorMsg('');
+        // if(e.target.length>=0)
 
         const dataToSend = {
             title: task.title,
